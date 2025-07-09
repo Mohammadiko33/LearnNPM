@@ -1,0 +1,2 @@
+1. چطور یک پکیج رو حذف کنیم 
+    npm uninstall [package name] / npm un [package name]

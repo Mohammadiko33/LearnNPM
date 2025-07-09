@@ -1,0 +1,14 @@
+1. ما اگر بخایم اسم نویسنده همیشه و همیشه برای ما محمد مایک در نظر بگیره مثلا ما نمیخایم بعد از زن کد زیر اسم نویسنده رو خالی بزاره یا لاینسس رو ام ای تی نزاره
+    npm i init -y 
+        برای رفع این مشکل میایم از کامند زیر استفاده میکنیم
+            npm config set init-author-name "[author name]"
+            npm config set init-license "[license name]"
+                از این به بعد وقتی ان پی ام ای اینیت دشت وای استفاده کنیم اسم نویسنده رو اسمی که داخل کوتیشن نوشتیم میاره 
+                و به این روش لاینسس هم لاینسسی که ما نوشتیم میاره
+                    npm set init-license "[license name]"
+                        این خط کد دقیقا عملکرد قبلی رو داره
+
+2. واسه اینکه متوجه بشیم دیفالت یک پراپرتیمون چه چیزی کانفیگ شده میایم از کامند زیر استفاده میکنیم  
+    npm get init-license "[license name]" / npm config get init-license "[license name]"
+    npm config get init-author-name "[author name]" / npm config get init-author-name "[author name]"
+        که اگر مقادیر دیفالت ست کرده باشیم بهمون نشون میده

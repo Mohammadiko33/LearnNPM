@@ -1,0 +1,36 @@
+1. بخش از این کامند های زیر یک عملکرد رو داره این چهار تا بخش کلا به چهار تا کامند هر کدام رو که نوشتیم درسته
+
+    npm install [package name] --save
+    npm i [package name] --save
+    npm install [package name]
+    npm i [package name]
+
+    ////////////////////////////
+
+    npm install [package name] --save-dev
+    npm i [package name] --save-dev
+    npm install [package name] -D
+    npm i [package name] -D
+
+    ////////////////////////////
+
+    npm uninstall [package name]
+    npm un [package name]
+    npm remove [package name]
+    npm rm [package name]
+
+    ////////////////////////////
+
+    npm i [package name] --global
+    npm i [package name] -g
+    npm rm [package name] -g
+
+2. در خط سوم به کلمه سیو میگن فلگ 
+    فلگ چیه ؟ 
+        فلگ توی فارسی به معنای پرچم هست در کل فلگ ها برای ما نحوه انجام کامند اصلی رو تعیین میکنه فلگ نحوه انجام کامند رو تعیین میکنه
+
+3. برای اجرای ترمینال وی اس کد از شورت کات زیر استفاده میکنیم
+    CTRL + `
+    
+4. در ترمینال برای پاک سازی از کامند زیر استفاده میکنیم
+    cls
